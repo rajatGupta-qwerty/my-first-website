@@ -1,0 +1,80 @@
+h1 {
+    color: brown;
+}
+.item{
+    position: relative;
+    border-radius: 3px;
+    border:solid 3px  purple;
+    margin:3px;
+    padding:30px
+   
+}
+
+
+.item p{
+    position: absolute;
+opacity: 0;
+transform: translate(-50% ,-50%);
+   top:50%;
+   left:50%
+}
+.item:hover p{
+    opacity:1;
+    font-size: 30px;
+  
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+
+}
+
+
+
+   .item:hover img{
+       opacity:0.5;
+       
+    
+   }
+
+
+
+.header{
+
+    background-color: rgba(248, 56, 8, 0.856);
+    padding-left: 50px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.grid{
+display:flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+.footer{
+    display:flex;
+    justify-content:flex-end ;
+ margin-right: 4px;
+ padding-right: 4px;
+ 
+    
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+}
+body{
+    background-color:indigo
+}
+.center {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+  
